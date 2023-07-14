@@ -1,0 +1,18 @@
+ts:
+        Apprendre le Markdown
+        Onboarding - Odyssey
+        VirtualBox : Introduction & Installation
+        VirtualBox : La gestion des interfaces réseaux
+        GNS3 : Graphical Network Simulator-3
+
+
+In my second week of activities at the wildcodeschool I did the following quests:
+        À la découverte de l'adresse IP
+        Explorer les entêtes ethernet et IP
+        Découpage de réseaux IP
+        InstallRequêter DNS avec dig
+        Installation de Wireshark et analyse de trames ethernet
+        Atelier : Configuration réseau avec GNS3
+
+I will finish the quests for the third week this week end
+
