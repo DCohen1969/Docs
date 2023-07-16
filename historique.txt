@@ -1,0 +1,100 @@
+ 1085  ls
+ 1086  ls ./inhabited/
+ 1087  cd real/
+ 1088  ls
+ 1089  ls terrestrial/
+ 1090  ls
+ 1091  ls dwarf-planets/
+ 1092  ls gas-giants/
+ 1093  ls
+ 1094  mv earth.jpeg mars.jpeg mercury.jpeg venus.jpeg ../inhabited/
+ 1095  ls
+ 1096  cd ../inhabited/
+ 1097  mv earth.jpeg mars.jpeg mercury.jpeg venus.jpeg ../real/
+ 1098  ls
+ 1099  cd ../real/
+ 1100  cp earth.jpeg mars.jpeg mercury.jpeg venus.jpeg ../inhabited/
+ 1101  ls
+ 1102  cd ../inhabited/
+ 1103  ls
+ 1104  cd ../../planets/
+ 1105  LS
+ 1106  ls
+ 1107  cd real/
+ 1108  ls 
+ 1109  rm pluto.jpeg 
+ 1110  find .jpeg
+ 1111  cd ../../
+ 1112  find ./ *.jpeg
+ 1113  history 
+ 1114  cd ../../
+ 1115  rm -r /quests/shell
+ 1116  rm r /quests/shell
+ 1117  rm -r /quests/shell
+ 1118  lsAA
+ 1119  rm -r /quests/
+ 1120  rm -r /quests
+ 1121  ls
+ 1122  ls -l
+ 1123  rm -r quests
+ 1124  cat Unix_commands.md
+ 1125  curl -o Unix_commands.md https://gist.githubusercontent.com/phaneendra/3804036/raw/f124b9f7703114d6be22f55e775cd2d015a45a91/UnixCommands.md
+ 1126  cat Unix_commands.md
+ 1127  ls / > /dev/null
+ 1128  cd /tmp/foo.txt
+ 1129  cat /foo 2> /tmp/foo-err.txt
+ 1130  cat /tmp/foo-err.txt
+ 1131  cat
+ 1132  cat > languages.txt
+ 1133  cat languages.txt
+ 1134  wc fich.temp
+ 1135  wc languages.txt 
+ 1136  cat > languages.txt
+ 1137  wc languages.txt 
+ 1138  cat languages.txt | grep C
+ 1139  wc < languages.txt 
+ 1140  ls
+ 1141  mkdir CSTemp
+ 1142  cd CSTemp/
+ 1143  wget https://www.data.gouv.fr/s/resources/liste-de-prenoms/20141127-154433/Prenoms.csv
+ 1144  ls 
+ 1145  [200~head Prenoms.csv
+ 1146  head -5 Prenoms.csv 
+ 1147  grep "f;french" < Prenoms.csv | wc -l
+ 1148  grep swedish Prenoms.csv > Swedish.csv
+ 1149  grep danish Prenoms.csv > Danish.csv
+ 1150  grep norwegian Prenoms.csv > Norwegian.csv
+ 1151  ls 
+ 1152  cat Swedish.csv Danish.csv Norwegian.csv | sort -u
+ 1153  man sort
+ 1154  mkdir wilders
+ 1155  cd wilders/
+ 1156  wget https://gist.githubusercontent.com/bhubr/bc3a21a0202109beeb31c4a677e0461b/raw/d8805eb82e8aabffab3b0163596c734f376617d0/wilders.csv
+ 1157  ls 
+ 1158  cat wilders.csv 
+ 1159  grep France;2019;PHP | wc -l
+ 1160  ls 
+ 1161  grep France;2019;PHP < wilders.csv | wc -l
+ 1162  grep "France;2019;PHP"  < wilders.csv | wc -l
+ 1163  grep "France"  < wilders.csv | wc -l
+ 1164  grep "France;2019;PHP"  < wilders.csv | wc -l
+ 1165  grep "Toulouse*Javascript"  < wilders.csv > JsToulouse
+ 1166  cat JsToulouse 
+ 1167  grep "Toulouse|Javascript"  < wilders.csv > JsToulouse
+ 1168  cat JsToulouse 
+ 1169  grep "Toulouse|Javascript"  < wilders.csv | wc -l
+ 1170  grep "Biarritz|Javascript"  < wilders.csv | wc -l
+ 1171  grep "Biarritz|Javascript"  < wilders.csv > JsBiarritz
+ 1172  cat JsBiarritz 
+ 1173  cat JsToulouse 
+ 1174  grep "Javascript"  < wilders.csv > JsBiarritz
+ 1175  cat JsBiarritz 
+ 1176  grep "Toulouse|JavaScript"  < wilders.csv | wc -l
+ 1177  grep "Biarritz|JavaScript"  < wilders.csv > JsBiarritz
+ 1178  cat JsBiarritz 
+ 1179  grep "JavaScript"  < wilders.csv > JsJavaScript
+ 1180  cat JsJavaScript 
+ 1181  grep "Toulouse"  < JsJavaScript | wc -l
+ 1182  grep "Biarritz"  < JsJavaScript | wc -l
+ 1183  history | tail 100 >historique.txt
+ 1184  history | tail -n 100 >historique.txt
